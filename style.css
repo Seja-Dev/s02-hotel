@@ -63,11 +63,11 @@ h2 {
   width: 100%;
 }
 
-.city-item {
+.item-50 {
   flex-basis: 50%;
 }
 
-.city-content {
+.content {
   display: flex;
   height: 100%;
   padding: 30px;
@@ -76,11 +76,11 @@ h2 {
   align-items: center;
 }
 
-.city-title {
+.content-title {
   margin-bottom: 40px;
 }
 
-.city-image {
+.content-image {
   width: 100%;
   object-fit: cover;
 }
@@ -122,6 +122,17 @@ h2 {
   margin: 0;
 }
 
+.contact {
+  display: flex;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 20px 0;
+}
+
 @media (max-width: 1024px) {
   .services-item {
     width: 100%;
@@ -130,12 +141,13 @@ h2 {
 
 /* tablets OU celulares */
 @media (max-width: 768px) {
-  .city {
+  .city,
+  .services-content {
     flex-direction: column;
   }
 
-  .services-content {
-    flex-direction: column;
+  .contact {
+    flex-direction: column-reverse;
   }
 
   .services-item {
