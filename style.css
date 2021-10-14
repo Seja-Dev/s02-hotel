@@ -43,3 +43,51 @@ button {
 .button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.button-primary {
+  border: 2px solid #00a7ef;
+  color: #00a7ef;
+}
+
+.button-primary:hover {
+  background-color: rgba(0, 167, 239, 0.2);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.city {
+  display: flex;
+  width: 100%;
+}
+
+.city-item {
+  flex-basis: 50%;
+}
+
+.city-content {
+  display: flex;
+  height: 100%;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-title {
+  margin-bottom: 40px;
+}
+
+.city-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* tablets OU celulares */
+@media (max-width: 768px) {
+  .city {
+    flex-direction: column;
+  }
+}
