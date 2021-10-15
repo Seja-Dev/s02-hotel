@@ -105,21 +105,19 @@ h2 {
 .services-item {
   width: 300px;
   height: 100%;
+  background-color: #00a7ef;
 }
 
 .services-image {
-  margin: 0;
   width: 100%;
 }
 
 .services-text {
-  background-color: #00a7ef;
   color: white;
   font-weight: bold;
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
-  margin: 0;
 }
 
 .contact {
@@ -152,7 +150,7 @@ footer {
 
   .services-item {
     height: 100%;
-    max-height: 250px;
+    max-height: 270px;
   }
 
   .services-image {
